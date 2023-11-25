@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(209, 177, 238);
+}
+
+h1{
+    margin: 50px;
+}
+.stickers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticker{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stickers img{
+    width: 200px;
+    height: 200px;
+
+}
+
+.sticker input{
+    margin:30px;
+}
+
+button{
+    padding: 10px;
+    margin: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: violet;
+}
